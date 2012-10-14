@@ -6,6 +6,7 @@ on early-init
     mkdir /storage 0775 root system
     mkdir /storage/sdcard0 0000 system system
     symlink /storage/sdcard0 /sdcard
+    symlink /storage/sdcard0 /mnt/sdcard
 
 on init
     export DSP_PATH /system/lib/dsp
