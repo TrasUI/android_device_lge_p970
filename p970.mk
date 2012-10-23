@@ -117,13 +117,11 @@ PRODUCT_PACKAGES += \
     libOMX.TI.G726.decode
 
 PRODUCT_PACKAGES += \
-    hwcomposer.omap3 \
+    hwcomposer.black \
     audio.a2dp.default \
     libaudioutils \
     libtiutils \
     libion \
-    libbridge \
-    cexec.out \
     libomap_mm_library_jni
     #camera.omap3 \#
 
